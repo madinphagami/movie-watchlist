@@ -13,4 +13,25 @@ header{
 
 .header-container {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+svg {
+    padding-left: 30px;
+    width: 80px;
+    height: 80px;
+}
+
+main {
+    width: 600px;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid black;
 }
